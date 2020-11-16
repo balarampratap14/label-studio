@@ -1066,7 +1066,6 @@ def stats():
 
 
 @app.route('/api/health', methods=['GET'])
-@requires_auth
 @exception_treatment
 def health():
     """ Health check
